@@ -1,0 +1,110 @@
+#main-content{
+
+    background-color: aqua;
+    width: 500px;
+}
+
+body{
+
+    background-color: rgb(132, 130, 126);
+    display:flex;
+    font-family: Tahoma, Geneva, sans-serif;
+  height: 100vh;
+  margin: 0;
+ 
+  grid-template-rows: 3rem auto;
+  color: rgb(11, 9, 9);
+}
+
+#container{
+
+    width: 300px;
+    height:200px;
+    
+    background-color: antiquewhite;
+
+}
+#image-container{
+
+    
+    margin-top: 125px;
+    margin: left 50px;
+
+}
+
+.flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .flex-around {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #top-menu a{
+    display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+  }
+  #top-menu a,
+  #sub-menu a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(12, 11, 11);
+    font-weight: bold;  
+    font-style: italic;
+    font-size: 16px;
+   
+  }
+  #sub-menu a {
+    display: block;     
+    
+          margin-bottom: 5px;
+  }
+
+  #sub-menu {
+    display: none;
+    position: absolute;
+   
+    /* width: 100%; */
+    flex-direction: column;  
+    
+  position: absolute;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  
+  }
+  
+  #top-menu a:hover,
+  #sub-menu a:hover {
+    background-color: brown;
+  }
+
+  nav a {
+    
+    padding: 0 1rem;
+        text-decoration: none;
+    color: white;
+  }
+  
+ 
+
+    .form-container  {
+       
+       display:none;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #573737;
+    }
+
+    #registration{
+        display:none;
+        
+
+    }
